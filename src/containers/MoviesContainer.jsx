@@ -9,14 +9,12 @@ state={
 }
 async componentDidMount(){
   const moviesArr = await findMovies();
-  console.log(moviesArr);
   this.setState({
     movies: moviesArr
   });
 }
 render() {
   const { movies } = this.state;
-  console.log(movies);
   return (
     <MovieList movies={movies} />
     

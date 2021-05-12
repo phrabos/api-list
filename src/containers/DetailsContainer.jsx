@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
 import Movie from '../components/movies/Movie';
 import { findSingleMovie } from '../services/movieApi';
+import PropTypes from 'prop-types';
 
 export default class DetailsContainer extends Component {
-
+static propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      id: PropTypes.string.isRequired
+    }).isRequired
+  }).isRequired
+}
   state={
-    movie: '',
+    movie: {
+      id:0,
+      title: '',
+      releaseDate: '',
+      posterPath: ''
+    },
   }
   async componentDidMount(){
     const singleMovie = await findSingleMovie(this.props.match.params.id);
-    console.log(singleMovie);
     this.setState({
       movie: singleMovie
     });
