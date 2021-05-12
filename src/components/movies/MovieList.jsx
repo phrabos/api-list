@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Movie from './Movie';
 
@@ -7,14 +8,15 @@ function MovieList({ movies }) {
    
     <ul aria-label="movies">
       {movies.map((movie) => {
-        return <li key={movie.id}>
-          <Movie 
-            title={movie.title}
-            releaseDate={movie.releaseDate}
-            posterPath={movie.posterPath}
-
-          />
-        </li>;
+        return (
+          <Link to={`movies/${movie.id}`} key={movie.id}>
+            <li >
+              <Movie 
+                movie={movie}
+              />
+            </li>
+          </Link>
+        );
       })}
     </ul>
   );

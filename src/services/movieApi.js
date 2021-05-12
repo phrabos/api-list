@@ -11,3 +11,15 @@ export const findMovies = async (search) => {
   }));
 };
 
+export const findSingleMovie = async (id) => {
+  const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.MOVIE_API_KEY}&language=en-US`);
+
+  const movie = await res.json();
+  
+  return {
+    id: movie.id,
+    title: movie.title,
+    releaseDate: movie.release_date,
+    posterPath: movie.poster_path,
+  };
+};

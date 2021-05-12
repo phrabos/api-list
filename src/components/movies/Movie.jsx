@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Movie({ title, releaseDate, posterPath }) {
+function Movie({ movie }) {
   return (
     <>
-      <p>{title}</p>
-      <p>{releaseDate}</p>
+      <p>{movie.title}</p>
+      <p>{movie.releaseDate}</p>
       <img 
-        src={`https://image.tmdb.org/t/p/original/${posterPath}`}
-        alt={title}
+        src={`https://image.tmdb.org/t/p/original/${movie.posterPath}`}
+        alt={movie.title}
         style={{
           width: '100px',
           height: '200px',
@@ -20,9 +20,13 @@ function Movie({ title, releaseDate, posterPath }) {
 }
 
 Movie.propTypes = {
-  title: PropTypes.string.isRequired,
-  releaseDate: PropTypes.string.isRequired,
-  posterPath: PropTypes.string.isRequired,
+  movie: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    releaseDate: PropTypes.string.isRequired,
+    posterPath: PropTypes.string.isRequired,
+
+  })
 };
 
 export default Movie;
