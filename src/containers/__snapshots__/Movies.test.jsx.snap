@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesContainer renders a list of movies on page 1`] = `
+<ul
+  aria-label="movies"
+>
+  <a
+    href="/movies/11"
+  >
+    <li>
+      <p>
+        Star Wars
+      </p>
+      <p>
+        1977-05-25
+      </p>
+      <img
+        alt="Star Wars"
+        src="https://image.tmdb.org/t/p/original//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/181812"
+  >
+    <li>
+      <p>
+        Star Wars: The Rise of Skywalker
+      </p>
+      <p>
+        2019-12-18
+      </p>
+      <img
+        alt="Star Wars: The Rise of Skywalker"
+        src="https://image.tmdb.org/t/p/original//db32LaOibwEliAmSL2jjDF6oDdj.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/181808"
+  >
+    <li>
+      <p>
+        Star Wars: The Last Jedi
+      </p>
+      <p>
+        2017-12-13
+      </p>
+      <img
+        alt="Star Wars: The Last Jedi"
+        src="https://image.tmdb.org/t/p/original//kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/348350"
+  >
+    <li>
+      <p>
+        Solo: A Star Wars Story
+      </p>
+      <p>
+        2018-05-15
+      </p>
+      <img
+        alt="Solo: A Star Wars Story"
+        src="https://image.tmdb.org/t/p/original//4oD6VEccFkorEBTEDXtpLAaz0Rl.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/140607"
+  >
+    <li>
+      <p>
+        Star Wars: The Force Awakens
+      </p>
+      <p>
+        2015-12-15
+      </p>
+      <img
+        alt="Star Wars: The Force Awakens"
+        src="https://image.tmdb.org/t/p/original//wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/732670"
+  >
+    <li>
+      <p>
+        The Lego Star Wars Holiday Special
+      </p>
+      <p>
+        2020-11-17
+      </p>
+      <img
+        alt="The Lego Star Wars Holiday Special"
+        src="https://image.tmdb.org/t/p/original//zyzJSI7UZZzz5Toj10rYGF5689z.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/825647"
+  >
+    <li>
+      <p>
+        Star Wars Biomes
+      </p>
+      <p>
+        2021-05-04
+      </p>
+      <img
+        alt="Star Wars Biomes"
+        src="https://image.tmdb.org/t/p/original//8I69ReO2IZtcpXnzZpKeswpPI33.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/12180"
+  >
+    <li>
+      <p>
+        Star Wars: The Clone Wars
+      </p>
+      <p>
+        2008-08-05
+      </p>
+      <img
+        alt="Star Wars: The Clone Wars"
+        src="https://image.tmdb.org/t/p/original//ywRtBu88SLAkNxD0GFib6qsFkBK.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/330459"
+  >
+    <li>
+      <p>
+        Rogue One: A Star Wars Story
+      </p>
+      <p>
+        2016-12-14
+      </p>
+      <img
+        alt="Rogue One: A Star Wars Story"
+        src="https://image.tmdb.org/t/p/original//5jX3p0apUG5bkMHtnKZch0xpkBS.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/392216"
+  >
+    <li>
+      <p>
+        Phineas and Ferb: Star Wars
+      </p>
+      <p>
+        2014-07-26
+      </p>
+      <img
+        alt="Phineas and Ferb: Star Wars"
+        src="https://image.tmdb.org/t/p/original//xomphpz7MIasqVluPX83TjoTL8G.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/1893"
+  >
+    <li>
+      <p>
+        Star Wars: Episode I - The Phantom Menace
+      </p>
+      <p>
+        1999-05-19
+      </p>
+      <img
+        alt="Star Wars: Episode I - The Phantom Menace"
+        src="https://image.tmdb.org/t/p/original//6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/667574"
+  >
+    <li>
+      <p>
+        Battle Star Wars
+      </p>
+      <p>
+        2020-01-28
+      </p>
+      <img
+        alt="Battle Star Wars"
+        src="https://image.tmdb.org/t/p/original//ocA0ECiFoB4d1HITyEDQlLk7x84.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/378386"
+  >
+    <li>
+      <p>
+        Star Wars: Greatest Moments
+      </p>
+      <p>
+        2015-12-26
+      </p>
+      <img
+        alt="Star Wars: Greatest Moments"
+        src="https://image.tmdb.org/t/p/original//zIffPwISrW48qSmvAXEV27lBTMA.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/435365"
+  >
+    <li>
+      <p>
+        The Story of Star Wars
+      </p>
+      <p>
+        2004-08-18
+      </p>
+      <img
+        alt="The Story of Star Wars"
+        src="https://image.tmdb.org/t/p/original//fvw9W7ds0Q51hQIbS7JoUBqL3tK.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/72448"
+  >
+    <li>
+      <p>
+        Star Wars: A Musical Journey
+      </p>
+      <p>
+        2005-05-03
+      </p>
+      <img
+        alt="Star Wars: A Musical Journey"
+        src="https://image.tmdb.org/t/p/original//iLR4myu0RED1JYQGEcJpOM7CWAN.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/81418"
+  >
+    <li>
+      <p>
+        Star Wars: Deleted Magic
+      </p>
+      <p>
+        2005-03-01
+      </p>
+      <img
+        alt="Star Wars: Deleted Magic"
+        src="https://image.tmdb.org/t/p/original//dhTb1CYXdfxMT2RAPCeFAvfmWiT.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/1895"
+  >
+    <li>
+      <p>
+        Star Wars: Episode III - Revenge of the Sith
+      </p>
+      <p>
+        2005-05-17
+      </p>
+      <img
+        alt="Star Wars: Episode III - Revenge of the Sith"
+        src="https://image.tmdb.org/t/p/original//xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/1894"
+  >
+    <li>
+      <p>
+        Star Wars: Episode II - Attack of the Clones
+      </p>
+      <p>
+        2002-05-15
+      </p>
+      <img
+        alt="Star Wars: Episode II - Attack of the Clones"
+        src="https://image.tmdb.org/t/p/original//oZNPzxqM2s5DyVWab09NTQScDQt.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/42979"
+  >
+    <li>
+      <p>
+        Robot Chicken: Star Wars
+      </p>
+      <p>
+        2007-07-17
+      </p>
+      <img
+        alt="Robot Chicken: Star Wars"
+        src="https://image.tmdb.org/t/p/original//h44WN4mVJ6wEpJgLaaNoFjv0NAo.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+  <a
+    href="/movies/515773"
+  >
+    <li>
+      <p>
+        Star Wars Spoofs
+      </p>
+      <p>
+        2011-01-01
+      </p>
+      <img
+        alt="Star Wars Spoofs"
+        src="https://image.tmdb.org/t/p/original//ApEnrioR2GrkyWVXCrIzDMtgk9b.jpg"
+        style="width: 100px; height: 200px;"
+      />
+    </li>
+  </a>
+</ul>
+`;
