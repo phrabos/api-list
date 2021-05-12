@@ -5,16 +5,19 @@ import { findMovies } from '../services/movieApi';
 export default class MoviesContainer extends Component {
 state={
   movies: [],
+  loading: true,
 
 }
 async componentDidMount(){
   const moviesArr = await findMovies();
   this.setState({
-    movies: moviesArr
+    movies: moviesArr,
+    loading: false,
   });
 }
 render() {
-  const { movies } = this.state;
+  const { movies, loading } = this.state;
+  if(loading) return <h1>Loading...</h1>;
   return (
     <MovieList movies={movies} />
     
