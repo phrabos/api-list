@@ -8,7 +8,7 @@ export default class DetailsContainer extends Component {
     movie: '',
   }
   async componentDidMount(){
-    const singleMovie = await findSingleMovie('680304');
+    const singleMovie = await findSingleMovie(this.props.match.params.id);
     console.log(singleMovie);
     this.setState({
       movie: singleMovie
@@ -18,8 +18,15 @@ export default class DetailsContainer extends Component {
   render() {
     // const { singleMovie } = this.state;
     return (
-      <Movie movie={this.state.movie}/>
-      // <h1>hi</h1>
+      <>
+        <Movie movie={this.state.movie}/>
+        <p>Additional Facts</p>
+        <ul>
+          <li>Popularity: {this.state.movie.popularity}</li>
+          <li>Budget ${this.state.movie.budget}</li>
+          <li>Rating {this.state.movie.rating}</li>
+        </ul>
+      </>
     );
   }
 }
