@@ -1,6 +1,7 @@
 import React from 'react';
-import Movies from '../../continaers/Moveis';
+import MoviesContainer from '../../continaers/MoviesContainer';
 
 export default function App() {
-  return <Movies />;
+  return <MoviesContainer />;
+  
 }

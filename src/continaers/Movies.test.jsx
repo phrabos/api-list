@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Movies from './Moveis';
+import Movies from './MoviesContainer';
 
 describe('MoviesContainer', () => {
   it('renders a list of movies on page', async () => {
