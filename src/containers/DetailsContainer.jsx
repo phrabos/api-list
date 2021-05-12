@@ -9,9 +9,10 @@ static propTypes = {
     params: PropTypes.shape({
       id: PropTypes.string.isRequired
     }).isRequired
-  }).isRequired
+  }).isRequired,
 }
   state={
+    loading: true,
     movie: {
       id:0,
       title: '',
@@ -22,12 +23,13 @@ static propTypes = {
   async componentDidMount(){
     const singleMovie = await findSingleMovie(this.props.match.params.id);
     this.setState({
-      movie: singleMovie
+      movie: singleMovie,
+      loading: false,
     });
   }
 
   render() {
-    // const { singleMovie } = this.state;
+    if(this.state.loading) return <h1>Loading...</h1>;
     return (
       <>
         <Movie movie={this.state.movie}/>
