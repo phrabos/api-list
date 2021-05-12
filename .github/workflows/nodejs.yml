@@ -15,5 +15,5 @@ jobs:
     - run: npm ci
     - run: npm test
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MOVIE_API_KEY: ${{ secrets.MOVIE_API_KEY }}
         CI: true
